@@ -1,5 +1,5 @@
 void main() throws IOException {
-    String[] ranges = Files.readAllLines(Path.of("inputs/day02.txt")).getFirst().split(",");
+    String[] ranges = Files.readAllLines(Path.of("day02.txt")).getFirst().split(",");
     long sum1 = 0, sum2 = 0;
     for (String s : ranges) {
         int x = s.indexOf('-');
