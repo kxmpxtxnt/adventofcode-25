@@ -20,7 +20,7 @@ class Day(val day: Int, var first: () -> Any = { 0 }, var second: () -> Any = { 
     val inputReader: InputStreamReader
         get() = Day::class.java.getResourceAsStream("/input_${day.toString().padStart(2, '0')}.txt")!!.reader()
 
-    val inputLines: Collection<String>
+    val inputLines: List<String>
         get() = inputReader.readLines()
 
     val input: String
