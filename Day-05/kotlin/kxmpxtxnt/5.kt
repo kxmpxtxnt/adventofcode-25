@@ -8,9 +8,6 @@ val day5 = day(5) {
     val ranges = inputLines.take(splitIndex).map { it.split("-") }.map { it[0].toLong()..it[1].toLong() }
     val ingredients = inputLines.takeLast(inputLines.size - splitIndex - 1).map(String::toLong)
 
-    println(ranges)
-    println(ingredients)
-
     first = {
         ingredients.count { ingredient -> ranges.any { range -> range.contains(ingredient) } }
     }
