@@ -15,8 +15,9 @@ Here is a list of all programming languages used by the contributors and the day
 | 01 - Secret Entrance     | ✅    | ✅      | ✅ | ✅      | ✅    | ✅       | ✅      |
 | 02 - Gift Shop           | ✅    | ✅      | ✅ | ✅      | ✅    | ✅       | ❌      |
 | 03 - Lobby               | ✅    | ✅      | ✅ | ✅      | ✅    | ✅       | ✅      |
-| 04 - Printing Department | ✅    | ❌      | ✅ | ✅      | ❌    | ✅       | ❌      |
-| 05 - Cafeteria           | ✅    | ❌      | ✅ | ✅      | ❌    | ✅       | ❌      |
+| 04 - Printing Department | ✅    | ✅      | ✅ | ✅      | ❌    | ✅       | ❌      |
+| 05 - Cafeteria           | ✅    | ✅      | ✅ | ✅      | ❌    | ✅       | ❌      |
+| 06 - Trash Compactor     | ✅    | ✅      | ✅ | ✅      | ❌    | ✅       | ❌      |
 
 
 ❌   = Keine Lösung / No solution,
